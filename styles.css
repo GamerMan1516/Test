@@ -1,6 +1,57 @@
-body {
-	background-color: black;
+html {
+	font-size: 16px;
 }
-h1 {
+a, article, body, div, footer, header, h1, img, li, nav, p, ul {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+header .header {
+	
 	text-align: center;
+	background-color: white;
+}
+nav {
+	background-color: #b41516;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	font-size: 1.3em;
+	margin: 0.3em 0.5em;
+	line-height: 1.4em;
+}
+nav a:link {
+	text-decoration: none;
+	color: black;
+}
+nav a:visited {
+	color: black;
+}
+nav a:hover, nav a:focus {
+	color: white;
+}
+article {
+	background-color: black;
+	margin: 0 auto;
+	padding: 1.4em;
+}
+article div {
+	background-color: white;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 3% 1em;
+}
+.profilePic {
+	text-align: center;
+}
+footer {
+	font-size: 1.3em;
+	text-align: center;
+	background-color: #b41516;
+	padding: 0.6em;
 }
